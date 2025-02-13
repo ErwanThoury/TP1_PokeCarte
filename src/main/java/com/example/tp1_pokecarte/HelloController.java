@@ -64,7 +64,7 @@ public class HelloController implements Initializable {
         koffing = new Carte("Koffing", "Pokemon",  10, 20, false, "Psy", "1-70.png");
 
         magikarp = new Carte("Magikarp", "Pokemon",  10, 0, false, "Aqua", "1-72.png");
-
+        aff(magikarp);
     }
 
     public void aff(Carte c)
@@ -91,12 +91,14 @@ public class HelloController implements Initializable {
             les Label lblLblSort1 et lblLblSort2.
          */
 
+
+
     }
     @FXML
     public void clickChen(MouseEvent mouseEvent) {
         /*
            FACILE (/2)
-           Cette méthode se lance lorsque je nous cliquons sur la carte "Chen", la carte se trouvant en bas à droite.
+           Cette méthode se lance lorsque nous cliquons sur la carte "Chen", la carte se trouvant en bas à droite.
            Il faudra alors afficher les informations relatives à la carte "Chen" dans l'espace prévu à cet effet.
          */
     }

@@ -20,6 +20,7 @@ public class Carte {
             - à l'attribut typePokemon la valeur "Null"
          */
 
+
     }
 
     public String getNom() {
